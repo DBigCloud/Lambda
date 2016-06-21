@@ -1,6 +1,6 @@
 #CHECK_HTTP_LAMBDA
 
-##Install Node depencies
+##Install Node dependencies
 
 ```
 npm install q
@@ -15,4 +15,7 @@ Create a **SNS topic** in AWS and verify your account.
 
 ##Create role for lambda
 Create a IAM role in AWS, apply **policy.json** and set your **S3 Bucket** and **SNS ARN**
+
+##Upload Lambda
+Crate a package zip with code and dependencies and upload it to a Lambda function.
 
