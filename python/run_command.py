@@ -28,4 +28,4 @@ def lambda_handler(event, context):
         return "Success"
         
     except Exception as e:
-        print "Error running ",e
+        print "Error running command " + command_run,e
